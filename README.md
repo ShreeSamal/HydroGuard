@@ -62,7 +62,6 @@ Diagram of the flow of our solution:
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
 
 ### Solution demo video
 
@@ -72,15 +71,31 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 The project currently does the following things.
 
-- Feature 1
-- Feature 2
-- Feature 3
+  - Complaint System for User:
+    - Streamlined user-friendly complaint system with prompt resolution and feedback.
 
-In the future we plan to...
+  - Admin Dashboard for Society Head:
+    - Comprehensive admin dashboard enabling real-time monitoring of society water quality for effective management.
 
-See below for our proposed schedule on next steps after Call for Code 2023 submission.
+  - Admin Dashboard for Government Body:
+    - Comprehensive admin dashboard enabling real-time monitoring of overall locality's water quality for effective management.
 
-![Roadmap](./images/roadmap.jpg)
+  - Water Quality Analysis Using different sensors
+    1. pH Sensor
+    2. Turbidity Sensor
+    3. TDS Sensor
+    4. Temperature Sensor
+    5. Water Flow Sensor
+
+In the future we plan for...
+
+  **Expansion to Other Regions**: Initially designed to address water quality issues in India, HydroGuardian can be expanded to other regions and countries facing similar water quality and scarcity challenges. This would require adapting the system to local conditions and regulatory requirements.
+
+  **Mobile Application for Public Reporting**: Develop a mobile application that allows the general public to report water quality concerns or issues they observe. This can further engage the community in safeguarding water quality.
+
+  **Water Quality Certification**: Introduce a certification system that rewards regions or communities with consistently high water quality standards. Such certification can be used for marketing purposes and attract investment and tourism.
+
+
 
 ## Additional details
 
@@ -107,11 +122,17 @@ See below for our proposed schedule on next steps after Call for Code 2023 submi
 **6. Run the application:**
   - flask run
 
-### Demo
+### Live Demo
+
+URL: 
 
 Credentials to run on local machine -
  - For Society
- - 
+   - email- "kaushal@mail.com"
+   - password- "kaushal"
+ - For Government
+   - email- "shree@mail.com"
+   - password- "shree"
 
 
 ## About this template
