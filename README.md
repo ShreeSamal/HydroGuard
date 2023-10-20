@@ -1,10 +1,6 @@
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/)
 
-_INSTRUCTIONS: This GitHub repository serves as a template you can use to create a new project for the [2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/). Use the **Use this template** button to create a new version of this repository and start entering content for your own Call for Code submission project. Make sure you have [registered for the 2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/register/) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project._
-
-_New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
-
-# Replace this heading with your team/submission name
+# HydroGuardian
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
@@ -27,51 +23,42 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-_INSTRUCTIONS: Complete all required deliverable sections below._
 
 ## Project summary
 
 ### The issue we are hoping to solve
-
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+The issue we are hoping to solve revolves around the critical concerns of water quality and distribution. The country has 18 percent of the world’s population, but only 4 percent of its water resources, making it among the most water-stressed in the world. Widespread water contamination is a daunting challenge in India with 1,95,813 habitations in the country reported to have poor water quality, posing serious health risks to the population. Pollution in India has led to more than 2.3 million premature deaths in 2019, according to a Lancet study. More than half a million were caused by water pollution.
 
 ### How our technology solution can help
-
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+Our system uses various sensors, like pH and turbidity, for real-time water quality monitoring in societies and distribution plants. Machine learning adjusts quality maintenance based on geographic locations. Real-time water flow sensors to detect issues like leaks or tampering, ensuring continuous assessment and problem detection, vital for safeguarding water quality.
 
 ### Our idea
+**Revolutionizing Water Quality Management through IoT and Machine Learning**
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+In a world grappling with critical challenges such as water scarcity and declining water quality, we present a visionary solution that harnesses the power of cutting-edge technology and innovative data analysis. Our idea revolves around the deployment of an integrated system of Internet of Things (IoT) devices equipped with state-of-the-art sensors to monitor and manage water quality throughout the entire supply chain. This comprehensive approach not only ensures the delivery of safe and clean drinking water but also tackles issues like leaks, tampering, and accountability within the water distribution infrastructure.
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
+More detail is available in [this document](./docs/DESCRIPTION.md).
 
 ## Technology implementation
 
 ### IBM AI service(s) used
 
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
+[IBM WatsonX](https://www.ibm.com/watsonx) -
 
-- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
+IBM WatsonX is a powerful suite of AI tools and services offered by IBM. In the context of this project, it is employed for data analysis. This means that the system utilizes advanced machine learning and artificial intelligence algorithms provided by WatsonX to make sense of the vast amount of data collected by the IoT sensors.
+
+IBM WatsonX can analyze complex data sets, identify patterns, trends, anomalies, and correlations within the water quality and flow data. By leveraging AI, the project can gain deeper insights into the state of the water supply and make informed decisions based on this analysis. For instance, it can help in optimizing the parameters for maintaining water quality based on geographic regions, identifying potential issues, and even predicting future water quality problems.
 
 ### Other IBM technology used
+Data generated by the IoT sensors, as well as the results of the AI data analysis, need a secure and scalable storage solution. In this case, the project has chosen to use IBM Cloud, IBM's cloud computing platform, for this purpose. IBM Cloud offers a reliable and flexible cloud infrastructure where data can be securely stored, managed, and accessed.
 
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
+The use of IBM Cloud ensures that the data collected from the IoT devices is stored in a centralized and easily accessible location. This centralized storage enables real-time monitoring and analysis of water quality data, making it accessible to stakeholders, authorities, and the project team. Furthermore, it provides a robust and scalable infrastructure for managing the growing amount of data generated by the IoT devices, supporting the long-term sustainability and effectiveness of the system.
 
 ### Solution architecture
 
-Diagram and step-by-step description of the flow of our solution:
+Diagram of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
-
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+![Solution Architecture](https://github.com/ShreeSamal/HydroGuard/assets/101418323/085b709e-dd91-4b2b-9deb-b5f3cdaa9934)
 
 ## Presentation materials
 
