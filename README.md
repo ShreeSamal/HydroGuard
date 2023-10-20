@@ -84,8 +84,6 @@ See below for our proposed schedule on next steps after Call for Code 2023 submi
 
 ## Additional details
 
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
-
 ### How to run the project
 **1. Create a virtual environment:**
 
