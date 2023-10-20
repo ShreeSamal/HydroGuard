@@ -87,18 +87,34 @@ See below for our proposed schedule on next steps after Call for Code 2023 submi
 _INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
 
 ### How to run the project
+**1. Create a virtual environment:**
 
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+  - pip install virtualenv
+  - virtualenv env
 
-### Live demo
+**2. Activate environment:**
 
-You can find a running system to test at...
+  - env\Scripts\activate
 
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
+**3. Install requirements:**
 
----
+  - pip install -r requirements.txt 
 
-_INSTRUCTIONS: You can remove the below section from your specific project README._
+**4. Set environment variable for the flask application:**
+  - set FLASK_APP=app.py
+
+**5. Set the FLASK_ENV environment variable to "development:**
+  - set FLASK_ENV=development
+
+**6. Run the application:**
+  - flask run
+
+### Demo
+
+Credentials to run on local machine -
+ - For Society
+ - 
+
 
 ## About this template
 
@@ -112,11 +128,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ### Authors
 
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+- [**Shaun Dsouza**](https://github.com/Shaun-Dsouza-717)
+- [**Kaushal Poojary**](https://github.com/Kaushal-Poojary)
+- [**Shree Samal**](https://github.com/ShreeSamal)
+- [**Aaman Bhowmick**](https://github.com/AamanBhowmick)
+- [**Manali Bhave**](https://github.com/ManaliBhave)
 
 ### License
 
@@ -124,4 +140,5 @@ This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE)
 
 ### Acknowledgments
 
+- We acknowledge the guidance of our teachers Prof. Bincy Ivin, Prof. Rohini Sawant and Prof. Ravita Mishra 
 - Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
